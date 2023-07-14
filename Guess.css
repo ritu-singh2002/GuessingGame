@@ -1,0 +1,64 @@
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: rgb(49, 152, 244);
+
+}
+.wrap{
+    background-color: black;
+    height: 410px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.wrap .box{
+    background-color: white;
+    margin-left: 5%;
+    margin-top: -9%;
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.con1{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+}
+
+.con2{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+}
+
+.box #btn{
+    margin-left: 41%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 6%;
+    border-radius: 7px;
+    border-color: transparent;
+    background-color: rgb(49, 152, 244);
+}
+
+.box #in{
+    margin-left: 38%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    text-align: center;
+    width: 112px;
+    border-radius: 7px;
+}
+
+.box #output{
+   text-align: center;
+}
