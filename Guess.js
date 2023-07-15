@@ -21,7 +21,7 @@ function newGuess(){
             document.getElementById('output').style.backgroundColor = "#f49480"
         }
         else if(user_guess == answer){
-            msg.textContent = "Yippie You Win!!" + "\n" +"The number was: " + answer + "\n" + "Your score is "+ (100 - guesses) + ".";
+            msg.textContent = "Yippie You Win!!" + "<br>" +"The number was: " + answer + "<br>" + "Your score is "+ (100 - guesses) + ".";
             document.getElementById('output').style.backgroundColor = "#8ce78c"
             document.getElementById("btn").disabled = true;
         }
